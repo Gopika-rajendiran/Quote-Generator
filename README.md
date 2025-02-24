@@ -13,9 +13,9 @@ A simple and interactive web app that generates random quotes. Users can generat
 
 ## Coding Languages Used
 
- --**HTML**: For the structure of the app.
- --**CSS**: For styling and layout.
- --**JavaScript**: For functionality (quote generation, text-to-speech, and social media sharing).
+ * **HTML**: For the structure of the app.
+ * **CSS**: For styling and layout.
+ * **JavaScript**: For functionality (quote generation, text-to-speech, and social media sharing).
 
 ## How to Use
 
