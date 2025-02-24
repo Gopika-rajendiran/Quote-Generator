@@ -1,0 +1,142 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  background: linear-gradient(135deg, #ff9a9e, #fad0c4, #a18cd1, #fbc2eb);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  text-align: center;
+  background: rgba(255, 255, 255, 0.9);
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  max-width: 500px;
+  width: 90%;
+  position: relative; 
+}
+
+h1 {
+  margin-bottom: 20px;
+  color: #333;
+  font-size: 2em;
+  font-weight: 600;
+}
+
+#quote-container {
+  margin: 20px 0;
+  padding: 20px;
+  background: linear-gradient(135deg, #a1c4fd, #c2e9fb);
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+#quote {
+  font-size: 1.5em;
+  font-style: italic;
+  color: #333;
+  line-height: 1.6;
+}
+
+#author {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-top: 10px;
+  color: #555;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 1em;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #6a11cb;
+  color: #fff;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  font-family: 'Nunito', sans-serif; 
+  font-weight: 600; 
+}
+
+button:hover {
+  background-color: #2575fc;
+  transform: scale(1.05);
+}
+
+#generate-btn {
+  margin: 10px 10px 20px 10px;
+}
+
+#listen-btn {
+  background-color: #ff6f61;
+  margin: 20px 10px 10px 10px; 
+}
+
+#listen-btn:hover {
+  background-color: #ff4757;
+}
+
+#share-btn {
+  background-color: #1da1f2;
+  margin: 10px;
+}
+
+#share-btn:hover {
+  background-color: #1991db;
+}
+
+.share-menu {
+  display: none; 
+  position: absolute;
+  bottom: 10px;
+  right: 10px; 
+  background: rgba(255, 255, 255, 0.95);
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  z-index: 10;
+  width: 150px;
+}
+
+.share-menu button {
+  display: block;
+  width: 100%;
+  margin: 5px 0; 
+  padding: 8px 10px; 
+  font-size: 0.9em; 
+  background-color: #6a11cb;
+  font-family: 'Nunito', sans-serif; 
+  font-weight: 600; 
+}
+
+.share-menu button:hover {
+  background-color: #2575fc;
+}
+
+#share-twitter-btn {
+  background-color: #1da1f2;
+}
+
+#share-twitter-btn:hover {
+  background-color: #1991db;
+}
+
+#share-whatsapp-btn {
+  background-color: #25d366;
+}
+
+#share-whatsapp-btn:hover {
+  background-color: #128c7e;
+}
+
+#share-instagram-btn {
+  background: linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+  color: #fff;
+}
+
+#share-instagram-btn:hover {
+  opacity: 0.9;
+}
