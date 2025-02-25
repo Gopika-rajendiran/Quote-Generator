@@ -16,7 +16,7 @@ body {
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
   max-width: 500px;
   width: 90%;
-  position: relative; 
+  position: relative;
 }
 
 h1 {
@@ -48,68 +48,82 @@ h1 {
   color: #555;
 }
 
+.button-container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
 button {
-  padding: 10px 20px;
+  padding: 12px 24px;
   font-size: 1em;
   border: none;
-  border-radius: 5px;
+  border-radius: 25px; 
   cursor: pointer;
-  background-color: #6a11cb;
   color: #fff;
-  transition: background-color 0.3s ease, transform 0.2s ease;
-  font-family: 'Nunito', sans-serif; 
-  font-weight: 600; 
+  transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 600;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+  display: flex;
+  align-items: center;
+  gap: 8px; 
 }
 
 button:hover {
-  background-color: #2575fc;
-  transform: scale(1.05);
+  transform: translateY(-2px); 
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15); 
 }
 
 #generate-btn {
-  margin: 10px 10px 20px 10px;
+  background: linear-gradient(135deg, #6a11cb, #2575fc); 
+}
+
+#generate-btn:hover {
+  background: linear-gradient(135deg, #2575fc, #6a11cb); 
 }
 
 #listen-btn {
-  background-color: #ff6f61;
-  margin: 20px 10px 10px 10px; 
+  background: linear-gradient(135deg, #ff6f61, #ff4757); 
 }
 
 #listen-btn:hover {
-  background-color: #ff4757;
+  background: linear-gradient(135deg, #ff4757, #ff6f61); 
 }
 
 #share-btn {
-  background-color: #1da1f2;
-  margin: 10px;
+  background: linear-gradient(135deg, #1da1f2, #1991db);
 }
 
 #share-btn:hover {
-  background-color: #1991db;
+  background: linear-gradient(135deg, #1991db, #1da1f2); 
 }
-
 .share-menu {
   display: none; 
   position: absolute;
-  bottom: 10px;
-  right: 10px; 
+  top: 50%; 
+  left: 100%; 
+  margin-left: 20px; 
   background: rgba(255, 255, 255, 0.95);
   padding: 10px;
   border-radius: 10px;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
   z-index: 10;
   width: 150px;
+  transform: translateY(-50%); 
 }
 
 .share-menu button {
   display: block;
   width: 100%;
-  margin: 5px 0; 
-  padding: 8px 10px; 
-  font-size: 0.9em; 
+  margin: 5px 0;
+  padding: 8px 10px;
+  font-size: 0.9em;
   background-color: #6a11cb;
-  font-family: 'Nunito', sans-serif; 
-  font-weight: 600; 
+  font-family: 'Nunito', sans-serif;
+  font-weight: 600;
+  border-radius: 20px; 
 }
 
 .share-menu button:hover {
@@ -117,15 +131,15 @@ button:hover {
 }
 
 #share-twitter-btn {
-  background-color: #1da1f2;
+  background-color: #1da1f2; 
 }
 
 #share-twitter-btn:hover {
-  background-color: #1991db;
+  background-color: #1991db; 
 }
 
 #share-whatsapp-btn {
-  background-color: #25d366;
+  background-color: #25d366; 
 }
 
 #share-whatsapp-btn:hover {
