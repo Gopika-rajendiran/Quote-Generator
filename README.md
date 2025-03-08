@@ -1,4 +1,4 @@
-# Quote-Generator-Codealpha_task2
+# Quote-Generator
 
 # Random Quote Generator
 
